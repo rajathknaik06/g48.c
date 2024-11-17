@@ -14,7 +14,7 @@ Otherwise, print "<number> is not an Armstrong number.".*/
 
 
 #include <stdio.h>
-#include <math.h>
+#include <math.h>    //armstrong number means  ex 153   3 digit so cube it it  1^3+5^3+3^3=153 the ans is same
 
 int main() {
     int number, original_number, num_digits = 0, armstrong_sum = 0, digit;
